@@ -1,0 +1,612 @@
+body
+{
+    font-family: "Verdana", sans-serif;
+    font-size: 10px;
+}
+::-webkit-input-placeholder 
+{
+   color: white;
+   opacity: 1;
+}
+:-moz-placeholder 
+{
+   color: white;  
+   opacity: 1;
+}
+::-moz-placeholder 
+{
+   color: white;  
+   opacity: 1;
+}
+:-ms-input-placeholder 
+{  
+   color: white; 
+   opacity: 1;
+}
+
+/* Google map *****************************************************************/
+#map
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+#wrapper
+{
+    margin-top: 47px;
+    display: none;
+    position: absolute;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.gm-style-cc
+{
+    display: none;
+}
+
+/* Control button **************************************************************/
+.control
+{
+    z-index: 1;
+    cursor: pointer;
+    position: relative !important;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 38px;
+    height: 38px;
+    opacity: 0.6;
+    clear: both;
+}
+
+/* Panel button ***************************************************************/
+.panel
+{
+    width: 30px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.panel a
+{
+    background-color: #8c8c8c;
+    display: block;
+    height: 30px;
+}
+.panel a img
+{
+    width: 24px;
+    height: 24px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.panel .diode
+{
+    height: 5px;
+    background-color: #efefef;
+}
+
+/* Panel **********************************************************************/
+#panel
+{
+    width: calc(100% - 34px);
+    float: left;
+    background-color: #3A3B3D;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 7px;
+    margin-left: 10px;
+}
+#panel .top
+{
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+}
+#panel .bottom
+{
+    width: calc(100% - 14px);
+    background-color: #4f5153;
+    padding: 5px;
+}
+#panel #basic .bottom
+{
+    border-left: 2px solid #c5e8af;
+    border-right: 2px solid #c5e8af;
+    border-bottom: 2px solid #c5e8af;
+}
+#panel #tools .bottom
+{
+    border-left: 2px solid #96C5E2;
+    border-right: 2px solid #96C5E2;
+    border-bottom: 2px solid #96C5E2;
+}
+#panel #content .bottom
+{
+    border-left: 2px solid #BFDBED;
+    border-right: 2px solid #BFDBED;
+    border-bottom: 2px solid #BFDBED;
+    color: white;
+}
+
+/* Buttons and options ********************************************************/
+.button
+{
+    border-radius: 2px;
+    cursor: pointer;
+    height: 18px;
+    float: left;
+    border: 1px solid #E5E5E5;
+    background-color: #3A3B3D;
+    font-weight: bold;
+    text-align: center;
+    line-height: 18px;
+}
+.buttons
+{
+    width: 100%;
+    margin-top: 7px;
+}
+.buttons_wrapper
+{
+    width: 172px;
+    margin: 0 auto;
+}
+
+/* Panel: basic ****************************************************************/
+#panel #basic .top
+{
+    border-top-right-radius: 10px;
+    background-color: #c5e8af;
+}
+#panel #basic .bottom
+{
+    height: 35px;
+}
+#panel #basic .bottom #m
+{
+    margin-left: 34px;
+}
+
+/* Panel: tools ****************************************************************/
+#panel #tools
+{
+    margin-top: 7px;
+}
+#panel #tools .top
+{
+    background-color: #96c5e2;
+}
+#panel #tools .bottom
+{
+    height: 35px;
+}
+
+/* Panel: content **************************************************************/
+#panel #content
+{
+    margin-top: 7px;
+}
+#panel #content .top
+{
+    background-color: #bfdbed;
+}
+#panel #content .bottom
+{
+    float: left;
+    background-color: #4a4c4e;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Searching address **********************************************************/
+#input_search
+{
+    width: calc(100% - 98px);
+    background-color: #3A3B3D;
+    border: 1px solid #E5E5E5;
+    display: block;
+    height: 16px;
+    padding: 1px 4px 1px 4px;
+    float: left;
+    letter-spacing: 0.6px;
+    border-radius: 2px;
+    color: white;
+}
+#button_search
+{
+    margin-left: 6px;
+    width: 80px;
+}
+.message
+{
+    width: 164px !important;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding: 5px;
+    background-color: #EFEFEF;
+    border: 2px solid #333333;
+    box-shadow: 0px 0px 20px #efefef;
+}
+.message b
+{
+    color: #0051cc;
+}
+
+/* Getting address ************************************************************/
+#button_target
+{
+    width: 100px;
+    margin-left: calc(50% - 50px);
+}
+
+/* Information ****************************************************************/
+.square
+{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: grey;
+    border: 1px #e5e5e5 solid;
+    margin-top: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+table
+{
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #bfbfbf;
+}
+tr
+{
+    height: 20px;
+}
+th
+{
+    background-color: #777a7d;
+    border: 1px solid #bfbfbf;
+}
+td
+{
+    background-color: #5e6063;
+    border: 1px dotted #bfbfbf;
+}
+td, th
+{
+    padding: 3px;
+}
+.color_column
+{
+    width: 16px;
+}
+.description_column
+{}
+
+/* Settings *******************************************************************/
+#div_settings_language
+{
+    margin-top: 2px;
+    margin-left: 4px;
+}
+#settings_language
+{
+    margin-left: 2px;
+    background-color: #EFEFEF;
+    height: 20px;
+    min-width: 20px;
+    padding: 1px 5px 0px 2px;
+    letter-spacing: 0.6px;
+}
+#settings_language option
+{
+    background-color: #EFEFEF;
+    height: 15px;
+    min-width: 20px;
+    padding: 3px 5px 1px 5px;
+    letter-spacing: 0.6px;
+}
+#button_settings_ok
+{
+    width: 80px;
+    margin-left: auto;
+}
+#button_settings_apply
+{
+    width: 80px;
+    margin-left: 7px;
+}
+
+/* Markers ********************************************************************/
+.marker
+{
+    color: black;
+    border: 1px solid black;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    text-align: center;    
+    border-radius: 25px;
+    font-weight: bold;
+}
+.marker.point
+{
+    background-color: #ccff99;
+}
+.marker.number
+{
+    background-color: #ffff99;
+}
+
+/* Zoom levels and markers ****************************************************/
+.marker.point.zoom_1
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_2
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_3
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_4
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_5
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_6
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_7
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_8
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_9
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_10
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_11
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_12
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.point.zoom_13
+{
+    padding: 1px;
+    font-size: 0px;
+}
+.marker.point.zoom_14
+{
+    padding: 2px;
+    font-size: 0px;
+}
+.marker.point.zoom_15
+{
+    padding: 3px;
+    font-size: 0px;
+}
+.marker.point.zoom_16
+{
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 7px;
+}
+.marker.point.zoom_17
+{
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 8px;
+}
+.marker.point.zoom_18
+{
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 9px;
+}
+.marker.point.zoom_19
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+}
+.marker.point.zoom_20
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 11px;
+}
+.marker.point.zoom_21
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 12px;
+}
+.marker.number.zoom_1
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_2
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_3
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_4
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_5
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_6
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_7
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_8
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_9
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_10
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_11
+{
+    padding: 0px;
+    font-size: 0px;
+}
+.marker.number.zoom_12
+{
+    padding: 1px;
+    font-size: 0px;
+}
+.marker.number.zoom_13
+{
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 6px;
+}
+.marker.number.zoom_14
+{
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 7px;
+}
+.marker.number.zoom_15
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 9px;
+}
+.marker.number.zoom_16
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+}
+.marker.number.zoom_17
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+}
+.marker.number.zoom_18
+{
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 12px;
+}
+.marker.number.zoom_19
+{
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 13px;
+}
+.marker.number.zoom_20
+{
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 14px;
+}
+.marker.number.zoom_21
+{
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 15px;
+}
+
+/* Checkbox button ************************************************************/
+div label input 
+{
+   margin-right:100px;
+}
+.checkbox_button 
+{
+    margin: 4px;
+    background-color: #EFEFEF;
+    border-radius: 4px;
+    overflow: auto;
+    float: left;
+    color: #333333;
+    min-width: 50px;
+}
+.checkbox_button label 
+{
+    float: left;
+    width: 4.0em;
+}
+.checkbox_button label span 
+{
+    text-align: center;
+    padding: 3px 0px;
+    display: block;
+    min-width: 50px;
+}
+.checkbox_button label input 
+{
+    position: absolute;
+    z-index: -2;
+}
+.checkbox_button input:checked + span 
+{
+    background-color: #ccff99;
+    border-radius: 4px;
+}
+.checkbox_description
+{
+    margin-left: 3px;
+    height: 28px;
+    line-height: 28px;
+}
