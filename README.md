@@ -34,10 +34,23 @@ GUI consist of:
 
 ### 2.1.1 Map type
 
-<img src="./media/image05.png" width="20%"/>
+<img src="./media/image05.png" width="18%"/>
 
 We can select **A** - satelite map or **B** - road map:
 
 <img src="./media/image03.jpg" width="32%"/>
 <img src="./media/image16.jpg" width="32%"/>
+
+### 2.1.2 Map view
+
+<img src="./media/image06.png" width="18%"/>
+
+There are three available map views:
+- **A** - territory view
+- **B** - regions view
+- **C** - region view
+
+<img src="./media/image13.jpg" width="32%"/>
+<img src="./media/image01.jpg" width="32%"/>
+<img src="./media/image14.jpg" width="32%"/>
 
