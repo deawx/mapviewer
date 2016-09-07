@@ -29,5 +29,6 @@ GUI consist of:
 ### 2.1 Menu
 
 <img src="./media/image12.png" width="32%"/>
+  
 <img src="./media/image04.png" width="32%"/>
 
