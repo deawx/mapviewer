@@ -52,7 +52,7 @@ There are three available map views:
 
 ### 2.1.3 Information
 
-<img src="./media/image07.jpg" width="18%"/>
+<img src="./media/image07.jpg"/>
 
 *Information* button displays descriptions and types, distinguished by colors. The table on menu looks different for territory view:
 
@@ -64,7 +64,7 @@ and different for regions view:
 
 ### 2.1.4 Searching address
 
-<img src="./media/image08.jpg" width="18%"/>
+<img src="./media/image08.jpg"/>
 
 If we don't konw where on map there is some address we can use this function. Searched address should be written in the field visible below:
 
@@ -76,11 +76,11 @@ If searched address is found, menu will be closed and we will see marker togethe
 
 ### 2.1.5 Fetching address
 
-<img src="./media/image09.jpg" width="18%"/>
+<img src="./media/image09.jpg"/>
 
 This functionality may become useful if we visited some place within selected territory, but we don't remember the exact address. We enable fetching addresses pressing the grey button, shown below:
 
-<img src="./media/image19.jpg" width="18%"/>
+<img src="./media/image19.jpg"/>
 
 <img src="./media/image21.png" width="32%"/>
 
@@ -90,13 +90,13 @@ After pressing the button menu will be closed. Now when we touch any place on th
 
 If we want to disable fetching addresses we need to go back to the menu > fetching addresses and press the button:
 
-<img src="./media/image20.png" width="15%"/>
+<img src="./media/image20.png"/>
 
 <img src="./media/image22.png" width="32%"/>
 
 ### 2.1.6 Settings
 
-<img src="./media/image10.jpg" width="18%"/>
+<img src="./media/image10.jpg"/>
 
 <img src="./media/image24.png" width="32%"/>
 
