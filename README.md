@@ -3,8 +3,6 @@
 <img src="./media/image02.png" width="32%"/> 
 <img src="./media/image03.jpg" width="32%"/>
 
-JavaScript application allowing to see KML polygons on Google Maps
-
 # 1. Launching application
 
 In order to launch the application you need to have QR code reader application (for example QRDroid on Android). After scanning given QR code, URL will be decoded. After visiting such URL, you will have application opened in your browser:
